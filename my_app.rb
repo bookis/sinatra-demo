@@ -4,7 +4,6 @@ require './lib/blog'
 class MyApp < Sinatra::Base
 
   get "/" do
-    puts Blog.files.inspect
     erb :index
   end
 
@@ -13,7 +12,7 @@ class MyApp < Sinatra::Base
   end
 
   get "/about-me" do
-    "I'm Bookis"
+    erb :about_me
   end
 
 end
