@@ -27,12 +27,18 @@ body {
 
 /* Header... */
 .header {
-  background: #3baeae url(/cat-logo.png) no-repeat left center;
-  padding-left: 40px;
+  background-color: #3baeae;
   height: 40px;
 }
 
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
 .brand {
+  padding-left: 40px;
+  background: transparent url(/cat-logo.png) no-repeat left center;
   display: inline-block;
   font-size: 24pt;
 }
