@@ -7,19 +7,12 @@ body {
 
 /* Layout... */
 
-.horizontal-list {
-  position: relative;
-}
 .horizontal-list > li {
   font-size: 14pt;
   height: 30px;
   margin: 0 5px;
   padding-top: 10px;
   display: inline-block;
-}
-
-.dropdown-anchor {
-  position: relative;
 }
 
 .horizontal-list li:hover {
@@ -67,9 +60,14 @@ body {
 }
 
 li:hover > .dropdown {
-  position: relative;
-  left: 0;
-  display: inline;
+  position: absolute;
+  background-color: #3baeae;
+  margin-top: 8px;
+  display: block;
+}
+
+.dropdown li {
+  padding: 5px 20px;
 }
 
 /*... Header*/
