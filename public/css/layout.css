@@ -1,0 +1,50 @@
+/* HTML Tags... */
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+/* ...HTML Tags*/
+
+/* Layout... */
+.horizontal-list {
+  padding: 0;
+  margin: 0;
+}
+
+.horizontal-list li {
+  font-size: 14pt;
+  height: 30px;
+  margin: 0 5px;
+  padding-top: 10px;
+  display: inline-block;
+  list-style: none;
+}
+
+.horizontal-list li:hover {
+  background-color: #2e9d99;
+}
+/* ...Layout*/
+
+/* Header... */
+.header {
+  background: #3baeae url(/cat-logo.png) no-repeat left center;
+  padding-left: 40px;
+  height: 40px;
+}
+
+.brand {
+  display: inline-block;
+  font-size: 24pt;
+}
+
+.nav {
+  display: inline-block;
+  float: right;
+}
+
+.nav .horizontal-list li a {
+  text-decoration: none;
+  color: black;
+}
+
+/*... Header*/
